@@ -1,0 +1,78 @@
+* { /* Sets the format for the whole website */
+    box-sizing: border-box;
+  }
+  
+  html { /* This makes the scrolling on the page smooth*/
+    scroll-behavior: smooth;
+  }
+  
+  body { /* Formats the body on the website. It includes the fonts that have been added as well as the line height of the text. */
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 { /* Formats how all the h tags to have 0 margin on the website */
+    margin: 0;
+  }
+  
+  .hero__image {
+    background-image: url("../images/destinations-main_image.jpg");
+    background-size: cover;
+  }
+  .hero__wrapper {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero__title {
+    color: #002f6c;
+    font-weight: 700;
+    font-size: 64px;
+  }
+  .hero__text {
+    font-size: 26px;
+    color: #002f6c;
+
+  }
+  .hero__btn {
+    width: 100px;
+    background-color: #002f6c;
+    border-color: #FFBD59;
+    margin-top: 32px;
+  }
+  .destination__cards {
+    width: 1200px;
+    max-width: 100%;
+  }
+
+  .row {
+    padding-bottom: 32px;
+  }
+
+  .card {
+    width: 350px !important;
+  }
+
+  .card-img-top {
+    height: 200px;
+  }
+
+  .card-body {
+    height: 320px;
+  }
+
+  .card__title {
+    font-size: 24px;
+    text-decoration: underline;
+    color: #002f6c;
+    margin-bottom: 16px;
+  }
+
