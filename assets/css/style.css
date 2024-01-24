@@ -1,13 +1,19 @@
 
-/* Navigation */
+/* GENERAL */
 
-* {
   /* Sets the format for the whole website */
+* {
   box-sizing: border-box;
 }
 
+/* This makes the scrolling on the page smooth*/
+html { 
+  scroll-behavior: smooth;
+}
+
+
+/* Formats the body on the website. It includes the fonts that have been added as well as the line height of the text. */
 body {
-  /* Formats the body on the website. It includes the fonts that have been added as well as the line height of the text. */
   margin: 0;
   padding: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -15,41 +21,40 @@ body {
   line-height: 1.5;
 }
 
+ /* Formats how all the h tags to have 0 margin on the website */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  /* Formats how all the h tags to have 0 margin on the website */
   margin: 0;
 }
 
 /* NAVBAR */
 a {
-    color: inherit !important;
+  color: inherit !important;
 }
 .customNav {
-    position: fixed;
-    width: 100%;
-    color: white;
-    background-color: #002F6C !important;
-    background-size: cover;
-    z-index: 10;
+  max-width: 2000px;
+  width: 100%;
+  color: white;
+  background-color: #002F6C !important;
+  background-size: cover;
 }
 .navbar-nav {
-    margin-left: auto;
-    margin-right: 0 !important;
+  margin-left: auto;
+  margin-right: 0 !important;
 }
 .navbar-brand img {
-   padding-right: 15px;
-   width: 90px;
+ padding-right: 15px;
+ width: 90px;
 }
 .nav-item {
-    margin: 0px 15px;
+  margin: 0px 15px;
 }
 .signup:hover{
-    cursor:pointer;
+  cursor:pointer;
 }
   
   /* About Us CSS Code.  */
@@ -204,4 +209,50 @@ a {
 .policy__dropdown {
     width: 1000px;
   }
-  
+
+  /* SIGNUP and LOGIN CSS CODE */
+
+.account__title {
+  width: 2000px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+  margin: 32px;
+  color: #002f6c;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.form__wrapper {
+  margin-top: 80px;
+  margin-bottom: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+}  
+
+.form__fields {
+  margin: 50px auto;
+  max-width: 100%;
+  width: 500px;
+}
+
+.account__btn {
+  margin-top: 16px;
+}
+
+.redirect__link {
+  text-decoration: none;
+  color: #002f6c!important;
+}
+
+.form-check-label {
+  text-decoration: none;
+}
+
+#signup__message, #login__message {
+  color: red;
+  margin-top: 10px;
+}
