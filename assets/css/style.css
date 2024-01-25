@@ -442,4 +442,66 @@ footer .nav-item:hover .nav-link {
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-/* Flight StatusL END */
+/* Flight Status END */
+
+/* Contact Start */
+
+#contactForm {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#contactForm label {
+  font-weight: bold;
+  color: #333;
+}
+
+#contactForm input,
+#contactForm textarea {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+  transition: border-color 0.3s;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+  border-color: #007bff;
+}
+
+#contactForm button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#contactForm button:hover {
+  background-color: #0056b3;
+}
+
+#contactInfo {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#contactInfo p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+/* Optional: Add hover effect */
+#contactInfo a:hover {
+  color: #007bff;
+}
+
+/* Contact END */
