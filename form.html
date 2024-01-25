@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/index.css">
+   </head>
+   <body>
+     
+    <!--contact Form card-->
+    <div class="card" style="width: 18rem;">
+        <img src="https://ventsmagazine.co.uk/wp-content/uploads/2023/03/Contact-Us.jpg" class="card-img-top" alt="Contact">
+        <div class="card-body"> 
+           <!-- Button trigger modal -->
+       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          How to contact us
+       </button> 
+        </div>
+        </div>
+    
+  
+  
+  <!-- Modal -->
+   <div class="modal fade modal-fullscreen-sm-down " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" >
+    <div class="modal-content">
+        <div class="modal-body ">  
+                 <!--Contact Form-->   
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                 <h2>Contact Us</h2>
+                 <hr>   
+                </div>
+                <input type="hidden" name="access_key" value="5c22f6dc-adf5-497a-abba-7b641a76bb86">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required> 
+                <input type="email" name="email" placeholder="Email" class="contact-inputs" required> 
+                <textarea name="message" placeholder="Your Message" class="contact-inputs required"></textarea>
+                <button type="submit">Submit</button>
+                </form>
+                <div class="contact-right">
+              </div>
+              </div>     
+              </div>
+              </div>
+    
+  
+  
+
+    
+              
+
+
+    
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+   </body>
+    </html>

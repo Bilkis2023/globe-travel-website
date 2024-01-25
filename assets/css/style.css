@@ -11,6 +11,9 @@ html {
   scroll-behavior: smooth;
 }
 
+ul {
+  list-style: none;
+}
 
 /* Formats the body on the website. It includes the fonts that have been added as well as the line height of the text. */
 body {
@@ -30,7 +33,7 @@ h5,
 h6 {
   margin: 0;
 }
-/* Hero Hader */
+/* Hero Header */
 .header-section {
   background-image: url("../Images/hero-bg.jpg"); /* Replace with your actual image URL */
   background-size: cover;
@@ -100,6 +103,7 @@ h6 {
   align-items: center;
 }
 /* Four Card End */
+
 /* NAVBAR */
 a {
   color: inherit !important;
@@ -162,7 +166,7 @@ a {
   width: 1000px;
 }
 
-/* DESTINATIONS CSS*/
+/* DESTINATION START */
 
 /* Resizes the image. */
 .hero__image {
@@ -186,6 +190,7 @@ a {
   font-size: 26px;
   color: #002f6c;
 }
+
 /* Styles the hero button. */
 .hero__btn {
   width: 100px;
@@ -197,8 +202,6 @@ a {
 .row {
   padding-bottom: 32px;
 }
-
-/* Styles the destination cards. */
 
 .destination__cards {
   width: 1200px;
@@ -224,7 +227,9 @@ a {
   margin-bottom: 16px;
 }
 
-/* FAQs CSS Code.  */
+/* DESTINATION END */
+
+/* FAQS CSS START */
 
 /* Styles the title on the page. */
 .faqs__title {
@@ -252,7 +257,9 @@ a {
   width: 1000px;
 }
 
-/* POLICIES CSS Code. */
+/* FAQs CSS END */
+
+/* POLICIES CSS START */
 
 .policies__title {
   width: 2000px;
@@ -278,7 +285,9 @@ a {
     width: 1000px;
   }
 
-  /* SIGNUP and LOGIN CSS CODE */
+  /* POLICIES CSS END */
+
+  /* SIGNUP and LOGIN CSS START */
 
 .account__title {
   width: 2000px;
@@ -320,7 +329,87 @@ a {
   text-decoration: none;
 }
 
+.tc_text {
+  color: #002f6c !important;
+}
+
 #signup__message, #login__message {
   color: red;
   margin-top: 10px;
 }
+
+/* SIGNUP and LOGIN CSS END */
+
+
+/* CHANGE CARD START */ 
+ .change__card {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  color: #4470C3;
+    
+ }
+
+ .change__btn {
+  border: none !important;
+    
+ }
+  
+ .change__header {
+  border: none;
+  border-left: 100px solid rgb(33, 3, 88);
+  height: 5px;
+        
+      }
+
+/* CHANGE CARD END*/ 
+      
+/* STYLE MODAL START */
+
+.modal{
+ color: #004684;
+}
+      
+.change__modal--title{
+  font-size: 35px !important;
+  box-shadow:inset 0px 0px 7px #004684 !important;
+  border: none;
+    
+  }
+
+
+.change__modal--body{
+  background-color: #dae4f7;
+}
+
+
+.change__modal--btn{
+  border-radius: 0px !important;
+  cursor: pointer;
+  position: relative;
+  background-color: rgb(46, 95, 255) !important;
+  align-items: center;
+  font-size: 18px !important;
+  border: none;
+  margin-left: 18px;
+}
+
+.change__modal--footer{
+  margin: 20px;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px !important;
+  list-style-type: none;
+  background-color: rgba(5, 38, 99, 0.952);
+  color: #ffbd59 !important;
+  text-decoration: none;
+}
+
+.change__links{
+  text-decoration: none;
+ }
+
+/* STYLE MODAL END */
