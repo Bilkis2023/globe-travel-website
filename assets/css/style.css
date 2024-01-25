@@ -166,7 +166,7 @@ a {
   width: 1000px;
 }
 
-/* DESTINATIONS CSS*/
+/* DESTINATION START */
 
 /* Resizes the image. */
 .hero__image {
@@ -190,6 +190,7 @@ a {
   font-size: 26px;
   color: #002f6c;
 }
+
 /* Styles the hero button. */
 .hero__btn {
   width: 100px;
@@ -201,8 +202,6 @@ a {
 .row {
   padding-bottom: 32px;
 }
-
-/* DESTINATION START */
 
 .destination__cards {
   width: 1200px;
