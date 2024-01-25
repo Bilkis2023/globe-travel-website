@@ -131,6 +131,10 @@ a {
 .nav-item:hover .nav-link {
   border-bottom: 2px solid #fff;
 }
+footer .nav-item .nav-link.active,
+footer .nav-item:hover .nav-link {
+  border-bottom: 2px solid #000;
+}
 .signup:hover {
   cursor: pointer;
 }
