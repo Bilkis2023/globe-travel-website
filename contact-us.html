@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Globe Travel Website</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,7 +17,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <!-- Navigation Bar Start -->
@@ -95,7 +96,7 @@
               <a class="nav-link" href="destinations.html">Destinations</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="signup.html">Sign Up</a>
+              <a class="nav-link" href="signup.html">Sign Up</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="login.html">Login</a>
@@ -107,53 +108,78 @@
     <!-- Navigation Bar End -->
 
     <!-- Main Start-->
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Contact Form -->
+        <div class="col-md-6">
+          <h2 class="mb-4 ms-4">Contact Us</h2>
+          <form id="contactForm">
+            <div class="mb-3">
+              <label for="fullName" class="form-label">Full Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullName"
+                name="fullName"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
 
-    <div class="form__wrapper">
-      <h1 class="account__title">Sign Up</h1>
-      <div>
-        <a class="redirect__link" href="login.html">
-          If you already have an account login here
-        </a>
-      </div>
-      <form>
-        <div class="mb-3 form__fields">
-          <label for="exampleInputEmail1" class="form-label"
-            >Email address</label
-          >
-          <input
-            type="email"
-            class="form-control"
-            id="signupEmail"
-            aria-describedby="emailHelp"
-          />
-          <div id="emailHelp" class="form-text">
-            We'll never share your email with anyone else.
+        <!-- Contact Information -->
+        <div class="col-md-6">
+          <h2 class="mb-4">Contact Information</h2>
+          <p>
+            <strong>Address:</strong><br />
+            123 Main Street, Cityville, Country
+          </p>
+          <p>
+            <strong>Phone:</strong><br />
+            +1 (555) 123-4567
+          </p>
+          <p>
+            <strong>Email:</strong><br />
+            info@example.com
+          </p>
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.701527274481!2d4.907375012184865!3d52.37583187190707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6099590ae1d19%3A0x37f9e7921bb19b73!2sBooking.com!5e0!3m2!1sen!2suk!4v1706210393042!5m2!1sen!2suk"
+              width="100%"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
-        <div class="mb-3 form__fields">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="signupPassword" />
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="checkbox" />
-          <a
-            class="form-check-label tc_text"
-            for="exampleCheck1"
-            href="policies.html"
-            >Read and agree to the terms and conditions by ticking the box.</a
-          >
-        </div>
-        <button
-          type="submit"
-          class="btn btn-primary account__btn"
-          id="signupBtn"
-        >
-          Sign Up
-        </button>
-        <div id="signup__message"></div>
-      </form>
+      </div>
     </div>
-    <!-- Main End-->
+    <!-- Main End -->
+
+    <!-- Main  End-->
 
     <!-- Footer Start-->
     <div class="container">
@@ -165,7 +191,9 @@
             >
           </li>
           <li class="nav-item">
-            <a href="contact-us.html" class="nav-link px-2 text-body-secondary"
+            <a
+              href="contact-us.html"
+              class="nav-link px-2 text-body-secondary active"
               >Contact Us</a
             >
           </li>
@@ -195,6 +223,5 @@
       crossorigin="anonymous"
     ></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
-    <script type="text/javascript" src="assets/js/flightstatus.js"></script>
   </body>
 </html>
