@@ -1,13 +1,12 @@
-
 /* GENERAL */
 
-  /* Sets the format for the whole website */
+/* Sets the format for the whole website */
 * {
   box-sizing: border-box;
 }
 
 /* This makes the scrolling on the page smooth*/
-html { 
+html {
   scroll-behavior: smooth;
 }
 
@@ -24,7 +23,7 @@ body {
   line-height: 1.5;
 }
 
- /* Formats how all the h tags to have 0 margin on the website */
+/* Formats how all the h tags to have 0 margin on the website */
 h1,
 h2,
 h3,
@@ -35,7 +34,6 @@ h6 {
 }
 /* Hero Header */
 .header-section {
-  background-image: url("../Images/hero-bg.jpg"); /* Replace with your actual image URL */
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -112,7 +110,7 @@ a {
   max-width: 2000px;
   width: 100%;
   color: white;
-  background-color: #002F6C !important;
+  background-color: #002f6c !important;
   background-size: cover;
 }
 .navbar-nav {
@@ -120,14 +118,14 @@ a {
   margin-right: 0 !important;
 }
 .navbar-brand img {
- padding-right: 15px;
- width: 90px;
+  padding-right: 15px;
+  width: 90px;
 }
 .nav-item {
   margin: 0px 15px;
 }
-.signup:hover{
-  cursor:pointer;
+.signup:hover {
+  cursor: pointer;
 }
 
 /* About Us CSS Code.  */
@@ -282,12 +280,12 @@ a {
 }
 
 .policy__dropdown {
-    width: 1000px;
-  }
+  width: 1000px;
+}
 
-  /* POLICIES CSS END */
+/* POLICIES CSS END */
 
-  /* SIGNUP and LOGIN CSS START */
+/* SIGNUP and LOGIN CSS START */
 
 .account__title {
   width: 2000px;
@@ -308,7 +306,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center !important;
-}  
+}
 
 .form__fields {
   margin: 50px auto;
@@ -322,7 +320,7 @@ a {
 
 .redirect__link {
   text-decoration: none;
-  color: #002f6c!important;
+  color: #002f6c !important;
 }
 
 .form-check-label {
@@ -333,57 +331,51 @@ a {
   color: #002f6c !important;
 }
 
-#signup__message, #login__message {
+#signup__message,
+#login__message {
   color: red;
   margin-top: 10px;
 }
 
 /* SIGNUP and LOGIN CSS END */
 
-
-/* CHANGE CARD START */ 
- .change__card {
+/* CHANGE CARD START */
+.change__card {
   display: flex;
   justify-content: center;
   margin-top: 120px;
-  color: #4470C3;
-    
- }
+  color: #4470c3;
+}
 
- .change__btn {
+.change__btn {
   border: none !important;
-    
- }
-  
- .change__header {
+}
+
+.change__header {
   border: none;
   border-left: 100px solid rgb(33, 3, 88);
   height: 5px;
-        
-      }
+}
 
-/* CHANGE CARD END*/ 
-      
+/* CHANGE CARD END*/
+
 /* STYLE MODAL START */
 
-.modal{
- color: #004684;
+.modal {
+  color: #004684;
 }
-      
-.change__modal--title{
+
+.change__modal--title {
   font-size: 35px !important;
-  box-shadow:inset 0px 0px 7px #004684 !important;
+  box-shadow: inset 0px 0px 7px #004684 !important;
   border: none;
-    
-  }
+}
 
-
-.change__modal--body{
+.change__modal--body {
   background-color: #dae4f7;
 }
 
-
-.change__modal--btn{
+.change__modal--btn {
   border-radius: 0px !important;
   cursor: pointer;
   position: relative;
@@ -394,13 +386,13 @@ a {
   margin-left: 18px;
 }
 
-.change__modal--footer{
+.change__modal--footer {
   margin: 20px;
   display: flex;
   position: relative;
   justify-content: flex-start;
   align-items: flex-start;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 18px !important;
   list-style-type: none;
   background-color: rgba(5, 38, 99, 0.952);
@@ -408,8 +400,35 @@ a {
   text-decoration: none;
 }
 
-.change__links{
+.change__links {
   text-decoration: none;
- }
+}
 
 /* STYLE MODAL END */
+
+/* Flight Status Start */
+
+.flight-status {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flight-status h2 {
+  color: #007bff;
+}
+
+.flight-status p {
+  margin: 8px 0;
+}
+
+/* Optional: Add hover effect */
+.flight-status:hover {
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+  transform: translateY(-3px);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Flight StatusL END */
