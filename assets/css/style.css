@@ -217,9 +217,9 @@ footer .nav-item:hover .nav-link {
   max-width: 100%;
 }
 
-.destination__cards .card {
+/* .destination__cards .card {
   width: 350px !important;
-}
+} */
 
 .destination__cards .card-img-top {
   height: 200px;
@@ -227,6 +227,7 @@ footer .nav-item:hover .nav-link {
 
 .destination__cards .card-body {
   height: 320px;
+  text-align: center;
 }
 
 .destination__cards .card__title {
@@ -250,10 +251,15 @@ footer .nav-item:hover .nav-link {
   margin-bottom: 32px;
   margin: 32px;
   color: #002f6c;
-  text-decoration: underline;
-  text-underline-offset: 6px; /* This lowers the line further. Stops the J in projects from breaking the line.*/
 }
-
+.faqs__title h1 {
+  display: inline-block;
+  border-bottom: 3px solid #002f6c;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #ffbd59;
+  color: #413c3c;
+}
 /* Resizes the dropdown menus. */
 .faqs__dropdown--wrapper {
   width: 2000px;
@@ -364,8 +370,9 @@ footer .nav-item:hover .nav-link {
 
 .change__header {
   border: none;
-  border-left: 100px solid rgb(33, 3, 88);
+  border-left: 100px solid #012f6c;
   height: 5px;
+  opacity: 1;
 }
 
 /* CHANGE CARD END*/
@@ -377,42 +384,13 @@ footer .nav-item:hover .nav-link {
 }
 
 .change__modal--title {
-  font-size: 35px !important;
-  box-shadow: inset 0px 0px 7px #004684 !important;
+  font-size: 20px;
+  font-weight: 400;
   border: none;
 }
 
 .change__modal--body {
-  background-color: #dae4f7;
-}
-
-.change__modal--btn {
-  border-radius: 0px !important;
-  cursor: pointer;
-  position: relative;
-  background-color: rgb(46, 95, 255) !important;
-  align-items: center;
-  font-size: 18px !important;
-  border: none;
-  margin-left: 18px;
-}
-
-.change__modal--footer {
-  margin: 20px;
-  display: flex;
-  position: relative;
-  justify-content: flex-start;
-  align-items: flex-start;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 18px !important;
-  list-style-type: none;
-  background-color: rgba(5, 38, 99, 0.952);
-  color: #ffbd59 !important;
-  text-decoration: none;
-}
-
-.change__links {
-  text-decoration: none;
+  background-color: #ffffff;
 }
 
 /* STYLE MODAL END */

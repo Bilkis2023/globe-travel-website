@@ -1,12 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Airlines</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
   <body>
     <!-- Navigation Bar Start -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
@@ -80,9 +85,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="destinations.html"
-                >Destinations</a
-              >
+              <a class="nav-link" href="destinations.html">Destinations</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="signup.html">Sign Up</a>
@@ -96,57 +99,91 @@
     </nav>
     <!-- Navigation Bar End -->
 
-      <!---Card-->
-      <!--Change/Cancel flight-->
-      <div class="card-component change__card">
-        <div class="card-container w-50 h-100 p-5 bg-body-tertiary float right change__container">
-          <h5 class="card-title"><b>CHANGE/CANCEL MY FLIGHT?</b></h5>
-          <hr class="card-header-underline change__header">
-          <p class="card-text">As Globe airlines understands that your travel plans can change, it's simple to Change or Cancel your flight prior to departure in just few easy steps.</p>
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary change__btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Learn more
-          </button>
-        </div>
+    <!---Card-->
+    <!--Change/Cancel flight-->
+    <div class="card-component change__card">
+      <div
+        class="card-container w-50 h-100 p-5 bg-body-tertiary float right change__container"
+      >
+        <h5 class="card-title"><b>CHANGE/CANCEL MY FLIGHT?</b></h5>
+        <hr class="card-header-underline change__header" />
+        <p class="card-text">
+          As Globe airlines understands that your travel plans can change, it's
+          simple to Change or Cancel your flight prior to departure in just few
+          easy steps.
+        </p>
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-primary change__btn"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Learn more
+        </button>
       </div>
-    
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5 change__modal--title" id="exampleModalLabel">Log in to your booking</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body change__modal--body">
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title change__modal--title" id="exampleModalLabel">
+              Log in to your booking
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body change__modal--body">
             <div class="modal-body">
-                <h4>Booking reference</h4>
-              <input type="text">
-              <h4>Last name </h4>
-              <input type="text">
-        </div>
-        <div class="modal-button">
-            <button type="button" class="btn btn-primary translate change__modal--btn" data-bs-toggle="modal">Find another booking</button>
+              <div class="mb-3">
+                <label for="bookingReference" class="form-label"
+                  >Booking reference</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="bookingReference"
+                  placeholder=""
+                />
+              </div>
+              <div class="mb-3">
+                <label for="lastName" class="form-label">Last name </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  placeholder=""
+                />
+              </div>
             </div>
-        <div class="modal-footer change__modal--footer">
-            <ul>
-           <li> 
-            <a class="change__links" href="Made a booking within the last 24 hours with a travel agent ">  Made a booking within the last 24 hours with a travel agent</a>
-            <br>
-            <br>
-               <a class="change__links" href="Manage my booking FAQs">Manage my booking FAQs</a>
-               <br>
-               <br>
-                <a class="change__links" href="Flight status">Flight status</a>
-           </li>
-            </ul>
+            <div class="modal-button">
+              <button
+                type="button"
+                class="btn btn-primary ms-3 translate"
+                data-bs-toggle="modal"
+              >
+                Find another booking
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-     <!-- Footer Start-->
-     <div class="container">
+    <!-- Footer Start-->
+    <div class="container">
       <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
           <li class="nav-item">
