@@ -8,10 +8,10 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
   <body>
-    <!-- Header Start-->
+    <!-- Navigation Bar Start -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand" href="index.html"
           ><img src="./assets/Images/globeTravel-3.png"
         /></a>
         <button
@@ -28,15 +28,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Book</a>
+              <a class="nav-link" href="booking.html">Book</a>
             </li>
 
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle active"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -45,9 +45,21 @@
                 Manage
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item nav__dropdown" href="changeflight.html">Change Booking</a></li>
+                <li>
+                  <a
+                    class="dropdown-item nav__dropdown"
+                    href="changeflight.html"
+                    >Change Booking</a
+                  >
+                </li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item nav__dropdown" href="#">Flight Status</a></li>
+                <li>
+                  <a
+                    class="dropdown-item nav__dropdown"
+                    href="flightstatus.html"
+                    >Flight Status</a
+                  >
+                </li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -60,31 +72,29 @@
                 >Help</a
               >
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item nav__dropdown" href="faqs.html">FAQs</a></li>
+                <li>
+                  <a class="dropdown-item nav__dropdown" href="faqs.html"
+                    >FAQs</a
+                  >
+                </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="destinations.html">Destinations</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link signup"
-                href="signup.html"
-                >Sign Up</a
+              <a class="nav-link" href="destinations.html"
+                >Destinations</a
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link signup"
-                href="login.html"
-                >Login</a
-              >
+              <a class="nav-link" href="signup.html">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- Header End-->
+    <!-- Navigation Bar End -->
 
       <!---Card-->
       <!--Change/Cancel flight-->
@@ -135,30 +145,46 @@
     </div>
   </div>
 
-   <!-- Footer Start-->
-   <div class="container">
-    <footer class="py-3 my-4">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item">
-          <a href="about-us.html" class="nav-link px-2 text-body-secondary">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="contact-us.html" class="nav-link px-2 text-body-secondary">Contact Us</a>
-        </li>
-        <li class="nav-item">
-          <a href="booking.html" class="nav-link px-2 text-body-secondary">Booking Information</a>
-        </li>
-        <li class="nav-item">
-          <a href="policies.html" class="nav-link px-2 text-body-secondary">Policies</a>
-        </li>
-      </ul>
-      <p class="text-center text-body-secondary">© 2023 Globe Travel, Inc</p>
-    </footer>
-  </div>
-  <!-- Footer End-->
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  <script src="index.js"></script>
-</body>
+     <!-- Footer Start-->
+     <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="about.html" class="nav-link px-2 text-body-secondary"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="contact-us.html" class="nav-link px-2 text-body-secondary"
+              >Contact Us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="booking.html" class="nav-link px-2 text-body-secondary"
+              >Booking Information</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="policies.html" class="nav-link px-2 text-body-secondary"
+              >Policies</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2023 Globe Travel, Inc</p>
+      </footer>
+    </div>
+    <!-- Footer End-->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/flightstatus.js"></script>
+  </body>
 </html>
