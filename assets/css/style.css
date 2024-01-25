@@ -124,6 +124,13 @@ a {
 .nav-item {
   margin: 0px 15px;
 }
+.nav-item .nav-link {
+  border-bottom: 2px solid transparent;
+}
+.nav-item .nav-link.active,
+.nav-item:hover .nav-link {
+  border-bottom: 2px solid #fff;
+}
 .signup:hover {
   cursor: pointer;
 }
@@ -168,11 +175,11 @@ a {
 
 /* Resizes the image. */
 .hero__image {
-  background-image: url("../images/destinations-main_image.jpg");
+  background-image: url("../images/destinations-main_image.jpeg");
   background-size: cover;
 }
 .hero__wrapper {
-  height: 600px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
