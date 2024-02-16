@@ -1,10 +1,23 @@
-## Title:
- <br>
+
  
 # Globe-travel-Website
 ### (This is a group project)
+
+![Freepik](./assets/images/travelers.jpg)
 <br>
 <br>
+
+## Table of Contents
+
+- [Description](#description)
+- [Image](#image)
+- [Technologies](#technologies)
+- [Credits](#credits)
+- [License](#license)
+
+
+## Description
+
 "Globe Travel" is a dynamic and user-friendly travel website desigened<br>
  to provide an immersive experience for users seeking informaion,<br>
  inspiration, and services are related to travel. The website has a clean<br>
@@ -24,7 +37,7 @@
  <br>
   <br>
 
-# Image:
+# Image
 ![The Globe Travel app with div tool screenshot.](assets/images/globeTravel.jpg)
 
 
@@ -32,14 +45,23 @@
  <br>
   <br>
 
+  # Technologies
+<br>
+<br>
+- HTML5
+<br>
+- CSS3
+<br>
+- JAVASCRIPT
+<br>
 
-# Server-side APIs(Application Programming Interfaces):
+
+## Server-side APIs(Application Programming Interfaces):
 refer to a set of protocols and tools that allow different software<br>
 applictions to communicate with each other. In the context of web<br>
 development, server-side APIs are commonly used to enable communucation<br> 
 between a client-side appliction(such as a web browser) and a server.
-  <br>
-  <br>
+ 
   Here are key aspects related to server-side APIs:
   1.Communication
   <br>
@@ -60,7 +82,7 @@ between a client-side appliction(such as a web browser) and a server.
   <br> 
    <br> 
 
-# Git branching workflow:
+## Git branching workflow:
    is a strategy or set of guidelines that developers follow when<br>   
 workin with Git, a distributed version control system. Branching allows <br>
 developers to create a independent lines of development, making it<br> 
@@ -124,7 +146,7 @@ development projects.
 <br>
 <br>
 
-# Agile software development
+## Agile software development
 <br>
 
 Agile software development is an iterative approach to software development that emphsizes<br>
@@ -160,36 +182,27 @@ aim to deliver high-quality software that meets customer needs efficiently and e
 
 
 
-# Credits:
+# Credits
 <br>
 
 https://bootcampspot.instructure.com/courses/5076
 https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
 https://www.markdownguide.org/cheat-sheet
 https://fontawesome.com/search
-Image by <a href="https://www.freepik.com/free-photo/medium-shot-smiley-people-traveling_22896990.htm#page=4&query=free%20photos%20for%20air-port&position=9&from_view=search&track=ais&uuid=67a98469-2970-4395-9c95-77d7b10d330a">Freepik</a>
 
 
-# Technologies Used:
-<br>
-<br>
-- HTML5
-<br>
-- CSS3
-<br>
-- JAVASCRIPT
-<br>
 
-  
- 
-  
-## License:
+    
+## License
+![alt text](./assets/images/License-MIT-blue.svg)
+
 <br>
 <br>
 -  👉 This project is licensed under the MIT License.
 <br>
 License: MIT License
-Copyright (c) 2023 Mst Bilkis Naher
+Copyright (c) 2023
+
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of<br>
 this software and associated documentation files (the "Software"), to deal in the<br>
@@ -198,7 +211,7 @@ Software without restriction, including without limitation the rights to use, co
 and to permit persons to whom the Software is furnished to do so, subject to the<br>
 following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies<br>
+The above copyright notice and this permission notice shall be included in all copies<br> 
 or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,<br>
