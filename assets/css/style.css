@@ -1,13 +1,12 @@
-
 /* GENERAL */
 
-  /* Sets the format for the whole website */
+/* Sets the format for the whole website */
 * {
   box-sizing: border-box;
 }
 
 /* This makes the scrolling on the page smooth*/
-html { 
+html {
   scroll-behavior: smooth;
 }
 
@@ -24,7 +23,7 @@ body {
   line-height: 1.5;
 }
 
- /* Formats how all the h tags to have 0 margin on the website */
+/* Formats how all the h tags to have 0 margin on the website */
 h1,
 h2,
 h3,
@@ -35,7 +34,6 @@ h6 {
 }
 /* Hero Header */
 .header-section {
-  background-image: url("../Images/hero-bg.jpg"); /* Replace with your actual image URL */
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -112,7 +110,7 @@ a {
   max-width: 2000px;
   width: 100%;
   color: white;
-  background-color: #002F6C !important;
+  background-color: #002f6c !important;
   background-size: cover;
 }
 .navbar-nav {
@@ -120,14 +118,25 @@ a {
   margin-right: 0 !important;
 }
 .navbar-brand img {
- padding-right: 15px;
- width: 90px;
+  padding-right: 15px;
+  width: 90px;
 }
 .nav-item {
   margin: 0px 15px;
 }
-.signup:hover{
-  cursor:pointer;
+.nav-item .nav-link {
+  border-bottom: 2px solid transparent;
+}
+.nav-item .nav-link.active,
+.nav-item:hover .nav-link {
+  border-bottom: 2px solid #fff;
+}
+footer .nav-item .nav-link.active,
+footer .nav-item:hover .nav-link {
+  border-bottom: 2px solid #000;
+}
+.signup:hover {
+  cursor: pointer;
 }
 
 /* About Us CSS Code.  */
@@ -170,11 +179,11 @@ a {
 
 /* Resizes the image. */
 .hero__image {
-  background-image: url("../images/destinations-main_image.jpg");
+  background-image: url("../images/destinations-main_image.jpeg");
   background-size: cover;
 }
 .hero__wrapper {
-  height: 600px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -208,9 +217,9 @@ a {
   max-width: 100%;
 }
 
-.destination__cards .card {
+/* .destination__cards .card {
   width: 350px !important;
-}
+} */
 
 .destination__cards .card-img-top {
   height: 200px;
@@ -218,6 +227,7 @@ a {
 
 .destination__cards .card-body {
   height: 320px;
+  text-align: center;
 }
 
 .destination__cards .card__title {
@@ -241,10 +251,15 @@ a {
   margin-bottom: 32px;
   margin: 32px;
   color: #002f6c;
-  text-decoration: underline;
-  text-underline-offset: 6px; /* This lowers the line further. Stops the J in projects from breaking the line.*/
 }
-
+.faqs__title h1 {
+  display: inline-block;
+  border-bottom: 3px solid #002f6c;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #ffbd59;
+  color: #413c3c;
+}
 /* Resizes the dropdown menus. */
 .faqs__dropdown--wrapper {
   width: 2000px;
@@ -282,12 +297,12 @@ a {
 }
 
 .policy__dropdown {
-    width: 1000px;
-  }
+  width: 1000px;
+}
 
-  /* POLICIES CSS END */
+/* POLICIES CSS END */
 
-  /* SIGNUP and LOGIN CSS START */
+/* SIGNUP and LOGIN CSS START */
 
 .account__title {
   width: 2000px;
@@ -308,7 +323,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center !important;
-}  
+}
 
 .form__fields {
   margin: 50px auto;
@@ -322,7 +337,7 @@ a {
 
 .redirect__link {
   text-decoration: none;
-  color: #002f6c!important;
+  color: #002f6c !important;
 }
 
 .form-check-label {
@@ -333,83 +348,182 @@ a {
   color: #002f6c !important;
 }
 
-#signup__message, #login__message {
+#signup__message,
+#login__message {
   color: red;
   margin-top: 10px;
 }
 
 /* SIGNUP and LOGIN CSS END */
 
-
-/* CHANGE CARD START */ 
- .change__card {
+/* CHANGE CARD START */
+.change__card {
   display: flex;
   justify-content: center;
   margin-top: 120px;
-  color: #4470C3;
-    
- }
+  color: #4470c3;
+}
 
- .change__btn {
+.change__btn {
   border: none !important;
-    
- }
-  
- .change__header {
-  border: none;
-  border-left: 100px solid rgb(33, 3, 88);
-  height: 5px;
-        
-      }
+}
 
-/* CHANGE CARD END*/ 
-      
+.change__header {
+  border: none;
+  border-left: 100px solid #012f6c;
+  height: 5px;
+  opacity: 1;
+}
+
+/* CHANGE CARD END*/
+
 /* STYLE MODAL START */
 
-.modal{
- color: #004684;
+.modal {
+  color: #004684;
 }
-      
-.change__modal--title{
-  font-size: 35px !important;
-  box-shadow:inset 0px 0px 7px #004684 !important;
+
+.change__modal--title {
+  font-size: 20px;
+  font-weight: 400;
   border: none;
-    
-  }
-
-
-.change__modal--body{
-  background-color: #dae4f7;
 }
 
-
-.change__modal--btn{
-  border-radius: 0px !important;
-  cursor: pointer;
-  position: relative;
-  background-color: rgb(46, 95, 255) !important;
-  align-items: center;
-  font-size: 18px !important;
-  border: none;
-  margin-left: 18px;
+.change__modal--body {
+  background-color: #ffffff;
 }
-
-.change__modal--footer{
-  margin: 20px;
-  display: flex;
-  position: relative;
-  justify-content: flex-start;
-  align-items: flex-start;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 18px !important;
-  list-style-type: none;
-  background-color: rgba(5, 38, 99, 0.952);
-  color: #ffbd59 !important;
-  text-decoration: none;
-}
-
-.change__links{
-  text-decoration: none;
- }
 
 /* STYLE MODAL END */
+
+/* Flight Status Start */
+
+.flight-status {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flight-status h2 {
+  color: #007bff;
+}
+
+.flight-status p {
+  margin: 8px 0;
+}
+
+/* Optional: Add hover effect */
+.flight-status:hover {
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+  transform: translateY(-3px);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Flight Status END */
+
+/* Contact Start */
+
+#contactForm {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#contactForm label {
+  font-weight: bold;
+  color: #333;
+}
+
+#contactForm input,
+#contactForm textarea {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+  transition: border-color 0.3s;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+  border-color: #007bff;
+}
+
+#contactForm button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#contactForm button:hover {
+  background-color: #0056b3;
+}
+
+#contactInfo {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#contactInfo p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+/* Optional: Add hover effect */
+#contactInfo a:hover {
+  color: #007bff;
+}
+
+/* Contact END */
+/* Route Start */
+
+.route-section .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+  color: rgb(5, 33, 85);
+  text-decoration: underline;
+  text-underline-position: under;
+  margin-bottom: 50px;
+  margin-top: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.route-section .card-title {
+  width: 100px;
+  height: 100px;
+  background: #ff5722;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 150%;
+  padding: 10px;
+  box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+.route-section .card-body {
+  text-align: center;
+}
+
+.route-section h5 {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.route-section hr {
+  color: 4px solid rgb(56, 56, 218);
+  width: 40px;
+  height: 60px;
+}
+/* Route  END */
