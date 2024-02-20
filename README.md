@@ -2,29 +2,27 @@
 
 ### (This is a group project)
 
-"Globe Travel" is a dynamic and user-friendly travel website desigened to provide an immersive experience for users seeking informaion,inspiration, and services are related to travel. The website has a clean and morden design with intuitive navigation, making it easy for users.
+![Freepik](./assets/images/travelers.jpg)
+<br>
+<br>
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technology)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Deployment](#deployment)
-- [Git branching workflow](GitBranchingWorkflow)
-- [Agile software development](AgileSoftwareDevelopment)
-- [Contributing](#contributing)
-- [About Us](#aboutme)
+- [Description](#description)
+- [Image](#image)
+- [Technologies](#technologies)
+- [Credits](#credits)
 - [License](#license)
 
-## Introduction
 
-"Globe Travel" is a dynamic and user-friendly travel website desigened to provide an immersive experience for users seeking informaion,inspiration, and services are related to travel. The website has a clean and morden design with intuitive navigation, making it easy for users.
+## Description
 
-## Features
-
+"Globe Travel" is a dynamic and user-friendly travel website desigened<br>
+ to provide an immersive experience for users seeking informaion,<br>
+ inspiration, and services are related to travel. The website has a clean<br>
+ and morden design with intuitive navigation, making it easy for users.
+ <br>
+<br>
 - Home
 - Book
 - Manage
@@ -36,6 +34,7 @@
 - Sign Up
 - Login
 
+# Image
 ## Technologies Used
 
 - HTML
@@ -71,6 +70,52 @@ To get started with the website, follow these steps:
 
 ## Deployment
 
+
+ <br>
+  <br>
+
+  # Technologies
+<br>
+<br>
+- HTML5
+<br>
+- CSS3
+<br>
+- JAVASCRIPT
+<br>
+
+
+## Server-side APIs(Application Programming Interfaces):
+refer to a set of protocols and tools that allow different software<br>
+applictions to communicate with each other. In the context of web<br>
+development, server-side APIs are commonly used to enable communucation<br> 
+between a client-side appliction(such as a web browser) and a server.
+ 
+  Here are key aspects related to server-side APIs:
+  1.Communication
+  <br>
+  2.Functionality
+  <br>
+  3.Data Exchange
+  <br>
+  4.HTTP Methods
+  <br>
+  5.Data Formats
+  <br>
+  6.Authentication
+  <br>
+  7.Frameworks and Libraries
+  <br>
+  8.Statelessness
+ <br>
+  <br> 
+   <br> 
+
+## Git branching workflow:
+   is a strategy or set of guidelines that developers follow when<br>   
+workin with Git, a distributed version control system. Branching allows <br>
+developers to create a independent lines of development, making it<br> 
+workflows exist, but a commonly used one is the "Feature Branch Workflow". 
 The application is deployed and accessible online. Visit the live version [here](https://dkt15.github.io/globe-travel-website/destinations.html).
 
 # Git branching workflow:
@@ -126,7 +171,8 @@ This command creates and switches to a new branch named "feature/new-feature-nam
   This branching workflow promotes a systematic and collaborative approach to development.
   Understanding Git branching workflow is crucial for effective collaboration in software development projects.
 
-# Agile software development
+## Agile software development
+<br>
 
 Agile software development is an iterative approach to software development that emphasises flexibility, collaboration, and customer feedback. It contrasts with traditional "waterfall" methods by breaking the development process into smaller increments called iterations or sprints, allowing for incremental improvements and adjustments throughout the project lifecycle. Here are key principles and characteristics of Agile software development:
 
@@ -148,6 +194,13 @@ If you would like to contribute to this project, please follow these steps:
 2. Create a new branch for your feature or improvement.
 3. Make changes and submit a pull request.
 
+# Credits
+<br>
+
+https://bootcampspot.instructure.com/courses/5076
+https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
+https://www.markdownguide.org/cheat-sheet
+https://fontawesome.com/search
 ## 🚀 About Us
 
 1. [Tj Thouhid](https://github.com/tjthouhid)
@@ -157,4 +210,33 @@ If you would like to contribute to this project, please follow these steps:
 
 ## License
 
+
+    
+## License
+![alt text](./assets/images/License-MIT-blue.svg)
+
+<br>
+<br>
+-  👉 This project is licensed under the MIT License.
+<br>
+License: MIT License
+Copyright (c) 2023
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of<br>
+this software and associated documentation files (the "Software"), to deal in the<br>
+Software without restriction, including without limitation the rights to use, copy,<br>
+ modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,<br>
+and to permit persons to whom the Software is furnished to do so, subject to the<br>
+following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies<br> 
+or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,<br>
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR<br>
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR<br>
+ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, <br>
+ARISING FROM, OUT OF OR IN CONNECTION WI
+  
 This project is licensed under the [MIT License](LICENSE).
